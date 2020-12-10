@@ -4,7 +4,7 @@
 }
 
 body{
-    background:fuchsia;
+    background: black;
 }
 
 main{
@@ -12,6 +12,8 @@ main{
     float:left;
     padding:30px;
     background:white;
+    
+    
 }
 aside{
     width: calc(25% - 60px);
@@ -23,12 +25,14 @@ aside{
 footer{
     clear:both;
     padding:30px;
-    background:white;
+    background: black;
+    color: white;
+
 }
 
 .logoContainer{
     float:left;
-    width:200px;
+    width:100px;
 }
 
 .logoContainer .logo{
@@ -70,12 +74,12 @@ li.active{
 }
 
 .heroImage .imageContainer{
-    height:300px;
-    max-height:300px;
-    background-image:url('https://images.pexels.com/photos/1551440/pexels-photo-1551440.png');
+    height:800px;
+    max-height:700px;
+    background-image:url('https://hackskeptic.files.wordpress.com/2015/05/stoneroses.jpg');
     background-size:cover;
     background-repeat:no-repeat;
-    background-position: center;
+    background-position:0 - 50px;
     position:relative;
 }
 
@@ -83,13 +87,24 @@ li.active{
     position:absolute;
     padding:20px;
     background:black;
-    color:white;
+    color:yellow;
     bottom:30px;
     left:30px;
 }
 
 .mainContentContainer{
-    max-width:500px;
+    max-width:1000px;
     margin:0 auto;
     background:white;
+}
+p{
+    margin-bottom:30px;
+}
+.youTubeEmbed{
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+.SpotifyEmbed{
+    margin-bottom: 30px;
+    max-width: 100%;
 }
